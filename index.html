@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KREDIT RUMAH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nama">PROGRAM KREDIT RUMAH</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product" >Product</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="Kalkulator">
+          
+          <form>
+            <h2>Kalkulator Kredit</h2>
+            <div class="input-section">
+              <label for="tipeRumah">Tipe Rumah</label>
+              <select name="tipeRumah" id="tipeRumah">
+                <option value="Alamanda">Alamanda</option>
+                <option value="Melati">Melati</option>
+                <option value="Mawar">Mawar</option>
+              </select>
+            </div>
+            <div class="input-section">
+              <label for="Tempo">Tempo Kredit</label>
+              <input
+                type="number"
+                name="Tempo"
+                id="Tempo"
+                min="0"
+                value="0"
+              />
+            </div>
+            <label for="HargaRumah">Harga Rumah</label>
+            <input type="text" id="HargaRumah" disabled>
+            <label for="UangMuka">Uang Muka</label>
+            <input type="text" id="UangMuka" disabled>
+            <label for="Angsuran">Angsuran</label>
+            <input type="text" id="Angsuran" disabled>
+            <div class="button-section">
+              <input type="button" value="Proses" id="tombolProses" />
+              <div></div>
+              <input type="reset" value="Reset" />
+            </div>
+          </form>
+          <img src="rumah.jpg" alt="Rumah" />
+        </div>
+        
+<div class="card">
+    <div class="card-body">
+    <h3>CATATAN : Uang muka = 20% total harga rumah</h3>
+    </div>
+</div>
+</main>
+<footer>
+  <p>&copy; 2023 Dino Ananda Restyanto</p>
+</footer>
+
+</body>
+<script src="main.js"></script>
+</html>
